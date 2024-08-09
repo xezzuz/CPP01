@@ -6,18 +6,18 @@
 /*   By: nazouz <nazouz@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/18 15:40:08 by nazouz            #+#    #+#             */
-/*   Updated: 2024/05/19 12:23:02 by nazouz           ###   ########.fr       */
+/*   Updated: 2024/07/07 13:58:12 by nazouz           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Harl.hpp"
 
 Harl::Harl() {
-	std::cout << "Karen is here!\n\n";
+
 }
 
 Harl::~Harl() {
-	std::cout << "\nThank god, Karen is gone\n";
+
 }
 
 void		Harl::debug(void) {
@@ -43,7 +43,6 @@ void		Harl::complain(std::string level) {
 												&Harl::error	};
 	std::string		levels[4] = {"DEBUG", "INFO", "WARNING", "ERROR"};
 	int				i = 0;
-	int				j = -1;
 
 	while (i < 4) {
 		if (level == levels[i])

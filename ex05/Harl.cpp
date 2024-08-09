@@ -6,18 +6,18 @@
 /*   By: nazouz <nazouz@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/18 15:40:08 by nazouz            #+#    #+#             */
-/*   Updated: 2024/05/19 11:47:08 by nazouz           ###   ########.fr       */
+/*   Updated: 2024/07/07 13:56:51 by nazouz           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Harl.hpp"
 
 Harl::Harl() {
-	std::cout << "Karen is here!\n\n";
+
 }
 
 Harl::~Harl() {
-	std::cout << "\nThank god, Karen is gone\n";
+
 }
 
 void		Harl::debug(void) {
@@ -51,5 +51,5 @@ void		Harl::complain(std::string level) {
 		}
 		i++;
 	}
-	std::cout << "[UNKOWN]\tSilence\n";
+	// std::cout << "[UNKNOWN]\tSilence\n";
 }

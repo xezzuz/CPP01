@@ -6,7 +6,7 @@
 /*   By: nazouz <nazouz@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/12 10:05:06 by nazouz            #+#    #+#             */
-/*   Updated: 2024/05/12 10:49:40 by nazouz           ###   ########.fr       */
+/*   Updated: 2024/07/06 11:01:36 by nazouz           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ class Zombie {
 		std::string		name;
 	public:
 		void	announce(void);
-		
+
 		Zombie();
 		Zombie(std::string name);
 		~Zombie();

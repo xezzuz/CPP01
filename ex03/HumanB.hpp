@@ -6,7 +6,7 @@
 /*   By: nazouz <nazouz@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/12 15:41:38 by nazouz            #+#    #+#             */
-/*   Updated: 2024/05/12 17:02:23 by nazouz           ###   ########.fr       */
+/*   Updated: 2024/07/07 13:56:07 by nazouz           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ class HumanB {
 		Weapon			*weaponPtr;
 	public:
 		void			setWeapon(Weapon& weapon);
-		void			attack(void);
+		void			attack(void) const;
 
 		HumanB();
 		HumanB(std::string name);
